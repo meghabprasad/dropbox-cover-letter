@@ -1,0 +1,92 @@
+body {
+    background-size: 100%;
+}
+
+#header_wrapper
+{
+ width:100%;
+ min-width:980px;
+ background-color:#ffffff;
+}
+#header
+{
+ width:980px;
+ margin:0px auto;
+ padding:0px;
+ height:85px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.card {
+    width: 600px;
+    height: 500px;
+    margin-left: 20px;
+    border: none !important;
+    margin-top: -60px;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#logo {
+
+    width: 250px;
+    height: 80px;
+    padding: 10px;
+}
+
+.logo-div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#slogan {
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important; 
+    color: #333333;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    font-size: 28px;
+}
+
+#buttons {
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.response {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-button {
+    font-family:'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    background-color: #ffffff !important;
+    color: #2895F1 !important;
+    width: 163px !important;
+    height: 34px !important;
+    border-color: #2895F1 !important;
+    font-size: 12px !important;
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif !important;
+}
+
+.response {
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif !important;
+    
+}
+
+#response-content{
+    text-align: left;
+}
+
+.btn {
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif !important;
+    margin-right: 10px !important;
+}
